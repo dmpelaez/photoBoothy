@@ -1,0 +1,38 @@
+body {
+  display: Flex;
+  align-items: center;
+  justify-content: center;
+  HEIGHT: 100VH;
+  flex-direction: row;
+}
+#video,
+#canvas-image {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+}
+#btn-toggle {
+  position: absolute;
+  left: 31%;
+  bottom: 23.5%;
+}
+#photo-btn {
+  position: absolute;
+  left: 31%;
+}
+.timer {
+display: none;
+ position: absolute;
+  left: 33%;
+  bottom: 69.5%;
+}
+
+.timerPhoto {
+  background: black;
+  height: 50px;
+  width: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

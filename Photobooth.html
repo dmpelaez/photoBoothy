@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+  <html>
+
+    <head>
+
+      <title>Photobooth</title>
+      <!--CSS link-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+      <link rel="stylesheet" href="Photobooth.css">
+    </head>
+    <body>
+      <div class="container">
+
+        <div class="timer"></div>
+
+        <video autoplay id="video">
+        
+        </video>
+        <div class="container2">
+          <button id="photo-btn" ><i class="fa-solid fa-camera"></i></button>
+          <button id="btn-toggle">OFF</button>
+          
+        </div>
+        <p class="timerchoose">Timer:</p>
+        <select class="select" value="">
+          <option value="0">None</option>
+          <option  value="3">3 seconds</option>
+          <option  value="5">5 seconds</option>
+          <option value="7">7 seconds</option>
+          <option  value="10">10 seconds</option>
+        </select>
+
+      </div>
+      
+      <canvas id="canvas-image"></canvas>
+      <script src="Photobooth.js"></script>
+    </body>
+
+  </html>

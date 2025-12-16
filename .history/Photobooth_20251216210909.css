@@ -1,0 +1,50 @@
+body {
+  display: Flex;
+  align-items: center;
+  justify-content: center;
+  HEIGHT: 100VH;
+  flex-direction: row;
+  gap: 20px;
+}
+#video,
+#canvas-image {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+}
+#btn-toggle {
+  position: absolute;
+  left: 31%;
+  bottom: 22.5%;
+  background: gray;
+  border: none;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  color: white;
+  font-weight: bold;
+  font-family: arial;
+}
+#photo-btn {
+  position: absolute;
+  left: 35%;
+  bottom: 23.5%;
+  border-radius: 50%;
+  height: 50px;
+}
+.timer {
+display: none;
+ position: absolute;
+  left: 33%;
+  bottom: 69.5%;
+}
+
+.timerPhoto {
+  background: black;
+  height: 50px;
+  width: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

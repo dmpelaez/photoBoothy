@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+  <html>
+
+    <head>
+
+      <title>Photobooth</title>
+      <!--CSS link-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+      <link rel="stylesheet" href="Photobooth.css">
+    </head>
+    <body>
+      <div class="timer"></div>
+      <video autoplay id="video"></video>
+      <button id="photo-btn" ><i class="fa-solid fa-camera"></i></button>
+      <button id="btn-toggle">OFF</button>
+      <select class="select">
+        <option selected value="3">3</option>
+        <option  value="5">5</option>
+        <option value="7">7</option>
+        <option  value="10">10</option>
+      </select>
+      <canvas id="canvas-image"></canvas>
+      <script src="Photobooth.js"></script>
+    </body>
+
+  </html>

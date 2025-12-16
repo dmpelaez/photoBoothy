@@ -1,0 +1,64 @@
+body {
+  display: Flex;
+  align-items: center;
+  justify-content: center;
+  HEIGHT: 100VH;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 20px 20px 20px;
+}
+#video,
+#canvas-image {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+}
+#video {
+  display: grid;
+}
+#btn-toggle {
+  
+  background: gray;
+  border: none;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  color: white;
+  font-weight: bold;
+  font-family: arial;
+  cursor: pointer;
+}
+#photo-btn {
+
+  
+  height: 45px;
+  width: 45px;
+  border: none;
+  background: gray;
+  cursor: pointer;
+}
+#photo-btn i {
+  color: white;
+}
+.timer {
+display: none;
+
+}
+
+.timerPhoto {
+  background: black;
+  height: 50px;
+  width: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   position: absolute;
+  left: 35%;
+  bottom: 69.5%;
+}

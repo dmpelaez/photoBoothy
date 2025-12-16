@@ -1,0 +1,9 @@
+body {
+  display: Flex;
+  align-items: center;
+}
+#video {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+}

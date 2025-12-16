@@ -1,0 +1,19 @@
+body {
+  display: Flex;
+  align-items: center;
+  justify-content: center;
+  HEIGHT: 100VH;
+  flex-direction: column;
+}
+#video,
+#canvas-image {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+}
+.timer {
+  background: black;
+  height: 50px;
+  width: 50px;
+  color: white;
+}

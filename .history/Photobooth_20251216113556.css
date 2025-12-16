@@ -1,0 +1,12 @@
+body {
+  display: Flex;
+  align-items: center;
+  justify-content: center;
+  HEIGHT: 100VH;
+  flex-direction: column;
+}
+#video {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+}
