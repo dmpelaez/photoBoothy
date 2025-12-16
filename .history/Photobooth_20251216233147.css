@@ -5,13 +5,13 @@ body {
   HEIGHT: 100VH;
   flex-direction: row;
   gap: 20px;
-  background: rgb(43, 29, 65);
+  background: rgb(104, 194, 139);
 }
 h1 {
   position: absolute;
   top: 5%;
   background: linear-gradient(90deg, purple, blue);
-  -webkit-background-clip: text;
+    -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -25,7 +25,6 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding-top: 5px;
 }
 #video,
 #canvas-image {
@@ -44,8 +43,8 @@ h1 {
   background: rgb(0, 0, 0);
   border: none;
   border-radius: 50%;
-  height: 45px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
   color: white;
   font-weight: bold;
   font-family: arial;
@@ -72,7 +71,6 @@ display: none;
 .timerchoose {
   font-weight: bold;
   font-family: arial;
-  color: white;
 }
 
 .timerPhoto {
@@ -86,14 +84,4 @@ display: none;
    position: absolute;
   left: 35%;
   bottom: 69.5%;
-}
-.save {
-  font-weight: bold;
-  font-family: arial;
-  color: white;
-  text-transform: uppercase;
-  white-space: no-wrap;
-  position: absolute;
-  bottom: 20%;
-  right: 31%;
 }

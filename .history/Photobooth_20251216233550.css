@@ -11,7 +11,7 @@ h1 {
   position: absolute;
   top: 5%;
   background: linear-gradient(90deg, purple, blue);
-  -webkit-background-clip: text;
+    -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -90,10 +90,4 @@ display: none;
 .save {
   font-weight: bold;
   font-family: arial;
-  color: white;
-  text-transform: uppercase;
-  white-space: no-wrap;
-  position: absolute;
-  bottom: 20%;
-  right: 31%;
 }
